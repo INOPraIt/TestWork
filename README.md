@@ -10,14 +10,11 @@ Make sure you have the following installed:
 ### 🛠 Installation
 
 1. **Clone the repository:**
-
-git clone https://github.com/INOPraIt/TestWork
+    git clone https://github.com/INOPraIt/TestWork
 
 2. **Launch the project**
+    cd client
+    npm start or yarn start
 
-npm start
-# or
-yarn start
-
-3. **Viewing the project**
-Go to the browser page at http://localhost:1234/
+4. **Viewing the project**
+    Go to the browser page at http://localhost:1234/
