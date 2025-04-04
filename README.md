@@ -9,12 +9,12 @@
 
 **Clone the repository:**
 
-&nbsp;git clone https://github.com/INOPraIt/TestWork
+&nbsp;&nbsp;&nbsp;git clone https://github.com/INOPraIt/TestWork
 
 **Install node_modules:**
 
-&nbsp;npm install / yarn install
+&nbsp;&nbsp;&nbsp;npm install / yarn install
 
 **Start the development server with npm:**
 
-&nbsp;npm start / yarn start
+&nbsp;&nbsp;&nbsp;npm start / yarn start
