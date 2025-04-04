@@ -1,0 +1,90 @@
+.homeContainer
+  width: 100%
+  margin-top: 20px
+  display: flex
+  justify-content: center
+  align-items: center
+  flex-direction: column
+
+  .progressBar
+    width: 98%
+    max-width: 1370px
+
+  .textHomeAddFormat
+    text-align: center
+    margin-top: 60px
+    font-family: "Comfortaa", sans-serif
+    font-weight: 600
+    font-size: 54px
+    color: #53504A
+
+  .textThreeVariants
+    text-align: center
+    margin-top: 20px
+    font-family: "Rubik", sans-serif
+    font-size: 14px
+    color: #8E8E83
+    font-weight: 500
+
+  .variantsBook
+    width: 97%
+    max-width: 1160px
+    display: flex
+    justify-content: space-between
+    margin-top: 40px
+    gap: 10px
+
+  .btnPlaceAnOrder
+    width: 228px
+    height: 54px
+    color: white
+    background-color: #E05F38
+    display: flex
+    align-items: center
+    border: none
+    border-radius: 1000px
+    gap: 30px
+    margin-top: 40px
+    margin-bottom: 80px
+
+    .textPlaceAnOrder
+      color: white
+      font-family: "Rubik", sans-serif
+      font-size: 16px
+      font-weight: 500
+      margin-left: 24px
+
+    .iconBtnPlaceAnOrder
+      width: 34px
+      height: 34px
+      border-radius: 500
+      background-color: white
+      display: flex
+      justify-content: center
+      align-items: center
+
+      .imageBtnPlaceAnOrder
+        width: 16.95px
+        height: 16.23px
+
+@media screen and (max-width: 986px)
+  .homeContainer .textHomeAddFormat
+    font-size: 32px
+
+@media screen and (max-width: 830px)
+  .homeContainer .variantsBook
+    flex-direction: column
+    align-items: center
+    width: 90%
+
+@media screen and (max-width: 425px)
+  .homeContainer .variantsBook
+    margin-top: 0%
+    flex-direction: column
+    align-items: center
+    width: 90%
+
+  .homeContainer .textHomeAddFormat
+    margin-top: 30px
+    font-size: 24px
+    width: 282px

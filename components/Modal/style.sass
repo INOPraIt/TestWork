@@ -1,0 +1,296 @@
+.modalOverlay
+  position: fixed
+  top: 0
+  left: 0
+  width: 100%
+  height: 100%
+  background: rgba(126, 122, 109, 0.493)
+  display: flex
+  align-items: center
+  justify-content: center
+  z-index: 999
+
+  .btnClose
+    position: absolute
+    top: 16px
+    right: 16px
+    background: none
+    border: none
+    font-size: 24px
+    cursor: pointer
+    z-index: 1000
+
+.modalContent
+  background: #FFFFFA
+  border-radius: 12px
+  width: 790px
+  height: 575px
+  display: flex
+  flex-direction: column
+  align-items: center
+
+  .namedVariants
+    width: 100%
+    max-width: 750px
+    margin-top: 20px
+    height: 72px
+    background-color: #E9673F
+    border-radius: 20px
+    display: flex
+    align-items: center
+    justify-content: space-between
+
+    .textTitleVariants
+      margin-left: 30px
+      font-family: "Rubik", sans-serif
+      font-weight: 600
+      color: #FFFFFA
+      font-size: 20px
+
+    .imgTitleVariants
+      width: 44px
+      height: 44px
+      margin-right: 20px
+
+  .blockAllDescription
+    display: flex
+    width: 100%
+    max-width: 750px
+    justify-content: space-between
+
+    .blockGeneralDescriptionModal
+      width: 50%
+      max-width: 370px
+      display: flex
+      align-items: center
+      flex-direction: column
+      background-color: #F4F4E3
+      margin-top: 17px
+      height: 446px
+      border-radius: 20px
+
+      .modalDescriptionText,
+      .modalDescriptionTwoText
+        width: 80%
+        max-width: 310px
+        color: #53504A
+        font-family: "Rubik", sans-serif
+        font-size: 14px
+        font-weight: 500
+        margin-top: 30px
+
+      .imageDescriptionBlock
+        width: 80%
+        max-width: 310px
+        height: 196px
+        margin-top: 30px
+        border-radius: 10px
+
+    .blockDescriptionCoverAndPage
+      width: 49%
+      max-width: 370px
+      display: flex
+      flex-direction: column
+
+      .blockDescriptionCover
+        width: 100%
+        display: flex
+        flex-direction: column
+        background-color: #F4F4E3
+        margin-top: 17px
+        height: 284px
+        border-radius: 20px
+
+        .textCover
+          color: #E9673F
+          font-family: "Rubik", sans-serif
+          font-weight: 500
+          margin-top: 30px
+          margin-left: 30px
+
+        .strAndDescription
+          display: flex
+          max-width: 310px
+          justify-content: space-between
+          margin-left: 30px
+          margin-top: 16px
+
+          .namedStr
+            color: #8E8E83
+            font-family: "Rubik", sans-serif
+            font-weight: 500
+            font-size: 14px
+
+          .textDescriptionStr
+            width: 203px
+
+            .descriptionStr
+              color: #53504A
+              font-family: "Rubik", sans-serif
+              font-weight: 500
+              font-size: 14px
+              text-align: left
+
+      .blockDescriptionPages
+        width: 100%
+        display: flex
+        flex-direction: column
+        background-color: #F4F4E3
+        margin-top: 10px
+        height: 152px
+        border-radius: 20px
+
+        .textPages
+          color: #E9673F
+          font-family: "Rubik", sans-serif
+          font-weight: 500
+          margin-top: 30px
+          margin-left: 30px
+
+        .strAndDescription
+          display: flex
+          max-width: 310px
+          justify-content: space-between
+          margin-left: 30px
+          margin-top: 16px
+
+          .namedStr
+            color: #8E8E83
+            font-family: "Rubik", sans-serif
+            font-weight: 500
+            font-size: 14px
+
+          .textDescriptionStr
+            width: 203px
+
+            .descriptionStr
+              color: #53504A
+              font-family: "Rubik", sans-serif
+              font-weight: 500
+              font-size: 14px
+              text-align: left
+              white-space: nowrap
+
+.modalImage
+  width: 100%
+  border-radius: 8px
+
+.closeModalBtn
+  margin-top: 20px
+
+@media screen and (max-width: 768px)
+  .modalOverlay
+    overflow-x: auto
+
+    .btnClose
+      position: absolute
+      top: 10px
+      right: 10px
+      background: none
+      border: none
+      font-size: 24px
+      cursor: pointer
+      z-index: 1000
+
+    .modalContent
+      width: 80%
+      padding: 20px
+      height: auto
+      margin-top: 400px
+      display: flex
+      flex-direction: column
+      align-items: center
+
+      .namedVariants
+        height: 64px
+        min-height: 64px
+        flex-shrink: 0
+        margin-top: 0
+        width: 100%
+        max-width: 100%
+
+      .blockAllDescription
+        width: 100%
+        flex-direction: column
+        align-items: center
+
+        .blockGeneralDescriptionModal
+          width: 100%
+          max-width: 100%
+          padding: 0
+
+          .modalDescriptionText,
+          .modalDescriptionTwoText
+            width: 100%
+            max-width: 273px
+            padding: 0 10px
+            color: #53504A
+            font-family: "Rubik", sans-serif
+            font-size: 14px
+            font-weight: 500
+            margin-top: 20px
+            line-height: 1.5
+
+          .imageDescriptionBlock
+            width: 100%
+            max-width: 273px
+            height: auto
+            border-radius: 10px
+            margin-top: 20px
+
+        .blockDescriptionCoverAndPage
+          width: 100%
+          max-width: 100%
+          margin-top: 20px
+
+          .blockDescriptionCover
+            height: auto
+            padding: 20px 16px
+            box-sizing: border-box
+            display: flex
+
+            .textCover
+              margin-top: 0
+              margin-left: 0
+
+            .strAndDescription
+              margin-top: 16px
+              margin-left: 0
+              gap: 0px
+
+              .namedStr
+                font-size: 14px
+
+              .textDescriptionStr
+                width: 163px
+                text-align: left
+
+                .descriptionStr
+                  white-space: normal
+                  margin-top: 0
+
+          .blockDescriptionPages
+            height: auto
+            margin-top: 16px
+            padding: 20px 16px
+            box-sizing: border-box
+
+            .textPages
+              margin-left: 0
+              margin-top: 0
+
+            .strAndDescription
+              margin-top: 10px
+              margin-left: 0
+              gap: 10px
+
+              .namedStr
+                font-size: 14px
+
+              .textDescriptionStr
+                width: 163px
+
+                .descriptionStr
+                  white-space: normal
+                  font-size: 14px
+                  margin-top: 0

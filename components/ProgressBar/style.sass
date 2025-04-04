@@ -1,0 +1,85 @@
+.progressBarContainer
+  width: 100%
+  background-color: #EBE9D8
+  height: 50px
+  display: flex
+  border-radius: 50px
+  position: relative
+
+  .stepsBlock
+    width: 80%
+    background-color: #53504A
+    border-radius: 50px
+
+    .stepBlockNotFlooded
+      position: absolute
+      width: 100%
+      display: flex
+      padding: 0px
+      margin: 0px
+      justify-content: center
+      align-items: center
+      height: 100%
+
+      .step
+        width: 20%
+        display: flex
+        align-items: center
+        text-align: center
+        height: 100%
+        gap: 11.65px
+        justify-content: center
+
+        .imgStep
+          width: 20px
+          height: 20px
+          margin-left: 26px
+
+        .textStep
+          color: #EBE9D8
+          font-family: "Rubik", sans-serif
+          white-space: nowrap
+          font-size: 14px
+
+    .stepBlockNotFloodedMini
+      display: none
+
+      .stepMini
+        display: none
+
+@media screen and (max-width: 830px)
+  .progressBarContainer .stepsBlock .stepBlockNotFlooded
+    display: none
+
+  .progressBarContainer .stepsBlock
+    width: 100%
+
+  .progressBarContainer .stepsBlock .stepBlockNotFloodedMini
+    position: absolute
+    width: 100%
+    display: flex
+    padding: 0px
+    margin: 0px
+    justify-content: center
+    align-items: center
+    height: 100%
+
+    .stepMini
+      width: 20%
+      display: flex
+      align-items: center
+      text-align: center
+      height: 100%
+      gap: 11.65px
+      justify-content: center
+
+      .imgStep
+        width: 20px
+        height: 20px
+        margin-left: 26px
+
+      .textStep
+        color: #EBE9D8
+        font-family: "Rubik", sans-serif
+        white-space: nowrap
+        font-size: 14px

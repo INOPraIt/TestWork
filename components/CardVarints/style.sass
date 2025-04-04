@@ -1,0 +1,84 @@
+.containerCardVariants
+  display: flex
+  flex-direction: column
+  width: 100%
+  max-width: 380px
+  border-radius: 20px
+  cursor: pointer
+
+  .imgCardVariants
+    background-color: rgb(247, 247, 247)
+    height: 220px
+    border-radius: 20px 20px 0 0
+    position: relative
+
+    .hitImage
+      position: absolute
+      left: 70%
+      top: -36px
+
+    .imageCardVariants
+      width: 100%
+      border-radius: 20px 20px 0 0
+      height: 220px
+
+  .infoCardVariants
+    height: 180px
+    border-left: 2px solid #EBE9D8
+    border-right: 2px solid #EBE9D8
+    border-bottom: 2px solid #EBE9D8
+    border-top: none
+    border-radius: 0 0 20px 20px
+    padding-left: 20px
+    padding-right: 20px
+
+    .strNamedAndMore
+      display: flex
+      justify-content: space-between
+      margin-top: 20px
+
+      .textTarif
+        font-family: "Rubik", sans-serif
+        font-weight: 500
+        color: #53504A
+        font-size: 24px
+
+      .btnMoreDetailed
+        width: 16px
+        height: 16px
+        background-color: #53504A
+        border-radius: 50px
+        color: #FFFFFA
+        border: none
+
+    .textDescriptionVariant
+      margin-top: 10px
+      max-width: 300px
+      font-family: "Rubik", sans-serif
+      color: #8E8E83
+      font-weight: 500
+      font-size: 14px
+
+    .strSizeAndPrice
+      display: flex
+      justify-content: space-between
+      margin-top: 42px
+
+      .textSize,
+      .textPrice
+        color: #53504A
+        font-family: "Rubik", sans-serif
+        font-weight: 500
+        font-size: 14px
+
+  &.activeCard
+    background-color: #EBE9D8
+
+@media screen and (max-width: 768px)
+  .containerCardVariants
+    margin-top: 20px
+
+  .containerCardVariants .imgCardVariants .hitImage
+    position: absolute
+    left: 70%
+    top: 0px

@@ -1,0 +1,39 @@
+{
+  "hello": "Привет",
+  "home": {
+    "select_format": "Выберите формат для своей книги",
+    "three_variants": "Мы предлагаем три варианта размера книги.",
+    "place_order": "Оформить заказ"
+  },
+  "progress": {
+    "character_creation": "Создание персонажа",
+    "upload_photo": "Загрузка фото",
+    "book_creation": "Создание книги",
+    "select_format": "Выбор формата",
+    "book_ready": "Книга готова"
+  },
+  "navbar": {
+    "catalog": "Каталог",
+    "themes_events": "Темы и события",
+    "for_kids": "Для детей",
+    "for_adults": "Для взрослых",
+    "contacts": "Контакты",
+    "order_book": "Заказать книгу"
+  },
+  "modal": {
+    "cover_title": "Обложка",
+    "cover_type": "Тип обложки:",
+    "cover_material": "Материал:",
+    "cover_print": "Печать:",
+    "cover_binding": "Переплет:",
+    "pages_title": "Страницы",
+    "pages_material": "Материал:",
+    "pages_print": "Печать:"
+  },
+  "card": {
+    "hit": "Хит",
+    "description": "Базовый вариант исполнения книги в качестве уникального подарка.",
+    "size": "20×20 см",
+    "price": "{{price}} ₽"
+  }
+}
