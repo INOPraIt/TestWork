@@ -1,20 +1,19 @@
-# Getting Started
+## 🚀 Getting Started
 
-Make sure you have the following installed:
-
-- [Node.js](https://nodejs.org/) (version 16 or later recommended)
-- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
+- [Node.js](https://nodejs.org/) (recommended version: 16 or later)
+- [npm](https://www.npmjs.com/) **or** [Yarn](https://yarnpkg.com/)
 
 ---
 
 ### 🛠 Installation
 
 1. **Clone the repository:**
-    git clone https://github.com/INOPraIt/TestWork
 
-2. **Launch the project**
-    cd client
-    npm start or yarn start
-
-4. **Viewing the project**
-    Go to the browser page at http://localhost:1234/
+```bash
+git clone https://github.com/INOPraIt/TestWork
+cd client
+npm install
+npm start
+# or, if you prefer Yarn:
+yarn install
+yarn start
