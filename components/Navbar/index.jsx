@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import './style.scss';
+import './style.sass';
 
 import setlogo from 'url:../../assets/images/logo.png';
 import iconNavbar from 'url:../../assets/images/icon.svg';

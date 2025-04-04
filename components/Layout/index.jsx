@@ -6,7 +6,6 @@ import HomePage from '../../pages/Home';
 import Navbar from '../Navbar';
 
 export default () => {
-
   return (
     <>
       <Routes>

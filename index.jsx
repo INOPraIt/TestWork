@@ -1,4 +1,3 @@
-import './assets/styles/style.sass';
 import './utils/i18n';
 
 import { PersistGate } from 'redux-persist/integration/react';

@@ -7,7 +7,7 @@ import createRootReducer from './reducers/createRootReducer';
 import sagas from './sagas';
 
 const persistConfig = {
-  key: 'wallet',
+  key: 'testwork',
   storage,
   blacklist: ['chat'],
 };
