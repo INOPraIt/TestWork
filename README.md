@@ -5,39 +5,19 @@
 
 ---
 
-### 🛠 Installation
+### 🛠 Installation and starting
 
 **Clone the repository:**
 
-```bash
 git clone https://github.com/INOPraIt/TestWork
-Navigate to the project folder:
 
-bash
-Копировать
-Редактировать
-cd client
-Install dependencies with npm:
+**Install node_modules**
 
-bash
-Копировать
-Редактировать
 npm install
 Or with Yarn:
-
-bash
-Копировать
-Редактировать
 yarn install
-Start the development server with npm:
 
-bash
-Копировать
-Редактировать
+**Start the development server with npm**
 npm start
 Or with Yarn:
-
-bash
-Копировать
-Редактировать
 yarn start
