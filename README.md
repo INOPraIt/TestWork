@@ -13,11 +13,8 @@ git clone https://github.com/INOPraIt/TestWork
 
 **Install node_modules**
 
-npm install
-Or with Yarn:
-yarn install
+npm install / yarn install
 
 **Start the development server with npm**
-npm start
-Or with Yarn:
-yarn start
+
+npm start / yarn start
